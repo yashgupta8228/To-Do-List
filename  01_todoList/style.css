@@ -46,6 +46,7 @@ ul {
 }
 
 li {
+  position: relative;
   padding: 10px;
   margin-bottom: 5px;
   background-color: #f2f2f2;
@@ -55,4 +56,25 @@ li {
 li:last-child {
   margin-bottom: 0;
 }
+
+/* Style for the delete button */
+.delButton {
+  position: absolute;
+  background-color: #f44336; /* Set background color */
+  color: white; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 0; /* Make button round */
+  padding: 0px; /* Add padding */
+  width: 20px;
+  font-size: 14px; /* Set font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+  right: 0%;
+}
+
+/* Hover effect for the delete button */
+.delButton:hover {
+  background-color: #d32f2f; /* Darker background color on hover */
+}
+
+
 
